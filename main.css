@@ -1,0 +1,32 @@
+    .navbar-dark {
+      background-color: #222;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #bbb;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #fff;
+    }
+
+    li{
+      padding-left: 5px;
+    }
+    #intro,#lang,#about,#project{
+      height: 100vh;
+    }
+    #contact{
+      height: 10vh;
+    }
+    hr{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .cen{
+      justify-content: center;
+    }
+    .tp{
+      position: absolute;
+      margin-bottom: 250px;
+      
+    }

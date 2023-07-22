@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <!-- Include Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body onload="lo()">
+<!-- Nav Bar Starts -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#about">RLN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-outline-light pt-0 pb-0 mt-2">Contact</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Nav Bar Ends -->
+<hr>
+<!-- Intro Starts -->
+  <div class="container-fluid bg-secondary w-100 d-flex  align-items-center cen vstack gap-3" id="intro">
+    <div><img src="img.png" class=""></div>
+    <div><p class="h1 pr-3">Lakshmi Narasimmon.R</p></div>
+    <div><p class="h3">Software Developer</p></div>
+    <button class="btn btn-dark">Hire Me</button>
+  </div>
+<!-- Intro Ends -->
+<hr>
+<!-- Lang Starts -->
+  <div class="container-fluid bg-secondary w-100 d-flex cen" id="lang">
+    <h1 class="h1">Language</h1>
+  </div>
+<!-- Lang Ends -->
+<hr>
+<!-- About Starts -->
+  <div class="container-fluid bg-secondary w-100 d-flex cen" id="about">
+    <h1 class="h1">About</h1>
+  </div>
+<!-- About Ends -->
+<hr>
+<!-- Project Starts -->
+  <div class="container-fluid bg-secondary w-100 d-flex cen" id="project">
+    <h1 class="h1">Projects</h1>
+  </div>
+<!-- Project Ends -->
+<!-- Contact Starts -->
+  <div class="container-fluid bg-dark w-100 text-light" id="contact">
+    <h1 class="h1">Contact</h1>
+  </div>
+<!-- Contact Ends -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function lo() {
+      let page = document.getElementById('intro');
+      window.addEventListener('load', function(e) {
+        page.focus();
+      })
+    }
+  </script>
+</body>
+</html>
