@@ -4,11 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PORTFOLIO</title>
-  <!-- Include Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="icon" type="image/x-icon" href="LOGO.png">
+  <!-- CSS Starts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- CSS Ends -->
 </head>
 <body onload="lo()">
+<!-- <div class="mob text-center">I AM NOT YET PORTATED TO MOBILE VIEW</div> -->
+<div class="disp">
 <!-- Nav Bar Starts -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
@@ -28,7 +34,7 @@
             <a class="nav-link" href="#project">Projects</a>
           </li>
           <li class="nav-item">
-            <button class="btn btn-outline-light pt-0 pb-0 mt-2">Contact</button>
+            <a class="btn btn-outline-light pt-0 pb-0 mt-2" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -38,36 +44,390 @@
 <hr>
 <!-- Intro Starts -->
   <div class="container-fluid bg-secondary w-100 d-flex  align-items-center cen vstack gap-3" id="intro">
-    <div><img src="img.png" class=""></div>
+    <div><img src="img.png"></div>
     <div><p class="h1 pr-3">Lakshmi Narasimmon.R</p></div>
     <div><p class="h3">Software Developer</p></div>
-    <button class="btn btn-dark">Hire Me</button>
+    <a class="btn btn-dark btn-lg" href="https://api.whatsapp.com/send?phone=919566266967&text=Hi%20RLN%2C">Hire Me</a>
   </div>
 <!-- Intro Ends -->
 <hr>
 <!-- Lang Starts -->
-  <div class="container-fluid bg-secondary w-100 d-flex cen" id="lang">
-    <h1 class="h1">Language</h1>
+  <div class="container-fluid bg-secondary w-100 d-flex align-items-center vstack gap-5" id="lang">
+    <h1 class="h1 mt-4">Languages</h1>
+    <div class="row w-100 mb-4 text-center">
+      <div class="col-4 bold"><img src="img.png"><br><br>JAVA</div>
+      <div class="col-4 bold"><img src="img.png"><br><br>PYTHON</div>
+      <div class="col-4 bold"><img src="img.png"><br><br>GIT & GITHUB</div>
+    </div>
+    <div class="row w-100 mt-4 text-center">
+      <div class="col-4 bold"><img src="img.png"><br><br>HTML</div>
+      <div class="col-4 bold"><img src="img.png"><br><br>CSS</div>
+      <div class="col-4 bold"><img src="img.png"><br><br>JAVASCRIPT</div>
+    </div>
   </div>
 <!-- Lang Ends -->
 <hr>
 <!-- About Starts -->
-  <div class="container-fluid bg-secondary w-100 d-flex cen" id="about">
-    <h1 class="h1">About</h1>
+  <div class="container-fluid bg-secondary w-100 d-flex align-items-center" id="about">
+    <div class="row h-100">
+        <div class="col-4 d-flex align-items-center cen">
+          <img src="mypic.jpg" class="img-thumbnail w-75 h-75">
+        </div>
+        <div class="col-8 d-flex align-items-start mt-5 display-4 vstack gap-3">
+          <div class="row bolde">
+            About me
+          </div>
+          <div class="row">
+            I am Lakshmi Narasimmon ,
+          </div>
+          <div class="row abt p-1">
+            I'm a passionate software developer with a love for innovation and problem-solving. I enjoy crafting efficient solutions and staying updated with the latest technologies. Collaboration and clean code are essential to me, and I thrive in a team environment. Let's create something amazing together!
+          </div>
+          <div class="row">
+            <a class="btn btn-dark btn-lg" href="https://api.whatsapp.com/send?phone=919566266967&text=Hi%20RLN%2C" style="width:250px">Hire me</a>
+          </div>
+        </div>
+
+    </div>
   </div>
 <!-- About Ends -->
 <hr>
 <!-- Project Starts -->
-  <div class="container-fluid bg-secondary w-100 d-flex cen" id="project">
-    <h1 class="h1">Projects</h1>
+  <div class="container-fluid bg-secondary h-100" id="project">
+  
+    <div class="container ">
+  <!-- Title -->
+  <h2 class="text-center h1 mb-4 pt-4">Projects</h2>
+
+  <!-- Row - JAVA -->
+  <div class="row">
+    <div class="col">
+      <h4 class="text-center h2 mb-3">JAVA</h4>
+      <div id="javaCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row">
+                            <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row">
+              <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#javaCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#javaCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row - PYTHON -->
+  <div class="row mt-4">
+    <div class="col">
+      <h4 class="text-center h2 mb-3">PYTHON</h4>
+      <div id="pythonCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row">
+                            <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row">
+                            <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#pythonCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#pythonCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row - WEB DEV -->
+  <div class="row mt-4">
+    <div class="col">
+      <h4 class="text-center h2 mb-3">WEB DEV</h4>
+      <div id="webDevCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row">
+              <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row">
+              <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sample Card -->
+  <div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="img.png" alt="Project Image">
+    <div class="card-body">
+      <h5 class="card-title">Project Title</h5>
+      <p class="card-text">Description of the project goes here.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#webDevCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#webDevCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br><br>
   </div>
 <!-- Project Ends -->
+
 <!-- Contact Starts -->
-  <div class="container-fluid bg-dark w-100 text-light" id="contact">
-    <h1 class="h1">Contact</h1>
+  <div class="container-fluid bg-dark w-100" id="contact">
+    <div class="contact-bar text-left">
+      <div class="contact-text">Contact</div>
+        <a href="https://api.whatsapp.com/send?phone=919566266967&text=Hi%20RLN%2C" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/king__of__your__kingdom/" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/_RLN_" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCFsBWmRoJ4FWgl6ozjPx7BA" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/lakshmi-narasimmon-r-a412a7206/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
   </div>
 <!-- Contact Ends -->
+</div>
+<!-- Script Starts --> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
   <script>
     function lo() {
       let page = document.getElementById('intro');
@@ -76,5 +436,6 @@
       })
     }
   </script>
+<!-- Script Ends -->
 </body>
 </html>
